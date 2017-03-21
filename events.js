@@ -29,7 +29,7 @@ function two () {
   //add event listenr to it:
   two.addEventListener('mouseenter', makeGreen)
 // add onen colour to make white again
-two.addEventListener('mouseleave', makeWhite)
+  two.addEventListener('mouseleave', makeWhite)
 }
 // CREATE FUNCTION three HERE
 
@@ -42,4 +42,8 @@ function makeBlue (evt) {
 
 function makeWhite (evt) {
   evt.target.style.backgroundColor = 'white'
+}
+
+function makeGreen (evt) {
+  evt.target.style.backgroundColor = 'green'
 }
