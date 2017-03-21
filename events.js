@@ -35,7 +35,7 @@ function two () {
 // CREATE FUNCTION three HERE
 function three () {
   var three = document.getElementById('three')
-  three.addEventListener('mousenter', makeYellow)
+  three.addEventListener('mouseenter', makeYellow)
   three.addEventListener('mouseleave', makeWhite)
 }
 
